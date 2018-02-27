@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity
         displayTeamA();
     }
 
-    public void displayTeamA()
+    private void displayTeamA()
     {
         TextView tv = (TextView) findViewById(R.id.score_team_a);
         tv.setText(String.valueOf(scoreTeamA));
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity
         displayTeamB();
     }
 
-    public void displayTeamB()
+    private void displayTeamB()
     {
         TextView tv = (TextView) findViewById(R.id.score_team_b);
         tv.setText(String.valueOf(scoreTeamB));
