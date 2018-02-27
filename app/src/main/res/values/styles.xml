@@ -9,4 +9,30 @@
         <item name="colorButtonNormal">#2196F3</item>
     </style>
 
+    <!-- Button style -->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <!-- Team name style -->
+    <style name="TeamNameStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <!-- Score style -->
+    <style name="ScoreStyle" parent="TeamNameStyle">
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
 </resources>

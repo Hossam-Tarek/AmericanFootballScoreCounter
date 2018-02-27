@@ -24,65 +24,40 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:textSize="30sp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="16dp"
+                    style="@style/TeamNameStyle"
                     android:text="Team A"/>
 
                 <TextView
                     android:id="@+id/score_team_a"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:layout_marginBottom="32dp"
-                    android:textSize="40sp"
-                    android:textColor="@android:color/black"
+                    style="@style/ScoreStyle"
                     android:text="0"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginLeft="16dp"
+                    style="@style/ButtonStyle"
                     android:onClick="addSixPointsTeamA"
                     android:textColor="@android:color/white"
                     android:text="touch down"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginLeft="16dp"
+                    style="@style/ButtonStyle"
                     android:onClick="addOnePointTeamA"
                     android:textColor="@android:color/white"
                     android:text="extra point"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    style="@style/ButtonStyle"
                     android:onClick="addTwoPointsTeamA"
                     android:textColor="@android:color/white"
                     android:text="two point conversion"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    style="@style/ButtonStyle"
                     android:onClick="addThreePointsTeamA"
                     android:textColor="@android:color/white"
                     android:text="field goal"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginLeft="16dp"
+                    style="@style/ButtonStyle"
                     android:onClick="addTwoPointsTeamA"
                     android:textColor="@android:color/white"
                     android:text="safety"/>
@@ -102,65 +77,40 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:textSize="30sp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="16dp"
+                    style="@style/TeamNameStyle"
                     android:text="Team B"/>
 
                 <TextView
                     android:id="@+id/score_team_b"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:layout_marginBottom="32dp"
-                    android:textSize="40sp"
-                    android:textColor="@android:color/black"
+                    style="@style/ScoreStyle"
                     android:text="0"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginLeft="16dp"
+                    style="@style/ButtonStyle"
                     android:onClick="addSixPointsTeamB"
                     android:textColor="@android:color/white"
                     android:text="touch down"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginLeft="16dp"
+                    style="@style/ButtonStyle"
                     android:onClick="addOnePointTeamB"
                     android:textColor="@android:color/white"
                     android:text="extra point"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    style="@style/ButtonStyle"
                     android:onClick="addTwoPointsTeamB"
                     android:textColor="@android:color/white"
                     android:text="two point conversion"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    style="@style/ButtonStyle"
                     android:onClick="addThreePointsTeamB"
                     android:textColor="@android:color/white"
                     android:text="field goal"/>
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginLeft="16dp"
+                    style="@style/ButtonStyle"
                     android:onClick="addTwoPointsTeamB"
                     android:textColor="@android:color/white"
                     android:text="safety"/>
