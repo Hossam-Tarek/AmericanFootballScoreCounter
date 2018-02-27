@@ -25,7 +25,7 @@
 
                 <TextView
                     style="@style/TeamNameStyle"
-                    android:text="Team A"/>
+                    android:text="@string/team_a"/>
 
                 <TextView
                     android:id="@+id/score_team_a"
@@ -36,31 +36,31 @@
                     style="@style/ButtonStyle"
                     android:onClick="addSixPointsTeamA"
                     android:textColor="@android:color/white"
-                    android:text="touch down"/>
+                    android:text="@string/first_button"/>
 
                 <Button
                     style="@style/ButtonStyle"
                     android:onClick="addOnePointTeamA"
                     android:textColor="@android:color/white"
-                    android:text="extra point"/>
+                    android:text="@string/second_button"/>
 
                 <Button
                     style="@style/ButtonStyle"
                     android:onClick="addTwoPointsTeamA"
                     android:textColor="@android:color/white"
-                    android:text="two point conversion"/>
+                    android:text="@string/third_button"/>
 
                 <Button
                     style="@style/ButtonStyle"
                     android:onClick="addThreePointsTeamA"
                     android:textColor="@android:color/white"
-                    android:text="field goal"/>
+                    android:text="@string/fourth_button"/>
 
                 <Button
                     style="@style/ButtonStyle"
                     android:onClick="addTwoPointsTeamA"
                     android:textColor="@android:color/white"
-                    android:text="safety"/>
+                    android:text="@string/fifth_button"/>
 
             </LinearLayout>
 
@@ -78,7 +78,7 @@
 
                 <TextView
                     style="@style/TeamNameStyle"
-                    android:text="Team B"/>
+                    android:text="@string/team_b"/>
 
                 <TextView
                     android:id="@+id/score_team_b"
@@ -89,31 +89,31 @@
                     style="@style/ButtonStyle"
                     android:onClick="addSixPointsTeamB"
                     android:textColor="@android:color/white"
-                    android:text="touch down"/>
+                    android:text="@string/first_button"/>
 
                 <Button
                     style="@style/ButtonStyle"
                     android:onClick="addOnePointTeamB"
                     android:textColor="@android:color/white"
-                    android:text="extra point"/>
+                    android:text="@string/second_button"/>
 
                 <Button
                     style="@style/ButtonStyle"
                     android:onClick="addTwoPointsTeamB"
                     android:textColor="@android:color/white"
-                    android:text="two point conversion"/>
+                    android:text="@string/third_button"/>
 
                 <Button
                     style="@style/ButtonStyle"
                     android:onClick="addThreePointsTeamB"
                     android:textColor="@android:color/white"
-                    android:text="field goal"/>
+                    android:text="@string/fourth_button"/>
 
                 <Button
                     style="@style/ButtonStyle"
                     android:onClick="addTwoPointsTeamB"
                     android:textColor="@android:color/white"
-                    android:text="safety"/>
+                    android:text="@string/fifth_button"/>
 
             </LinearLayout>
 
@@ -129,7 +129,7 @@
             android:textColor="@android:color/white"
             android:paddingRight="32dp"
             android:paddingLeft="32dp"
-            android:text="reset" />
+            android:text="@string/reset_button" />
 
     </RelativeLayout>
 
